@@ -1,0 +1,8 @@
+.place-card__likes {
+    min-height: 13px;
+    margin-top: 2px;
+
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}

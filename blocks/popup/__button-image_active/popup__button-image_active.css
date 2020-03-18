@@ -1,0 +1,4 @@
+.popup__button-image_active {
+    opacity: 1;
+    filter: invert(0);
+}
