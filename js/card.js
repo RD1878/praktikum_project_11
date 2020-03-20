@@ -1,4 +1,4 @@
-class Card {
+export default class Card {
   
   //Лайк карточки
   like(event) {

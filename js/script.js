@@ -1,4 +1,11 @@
-(function() {
+import Api from './api';
+import Card from './card';
+import CardList from './cardList';
+import Popup from './popup';
+import UserInfo from './userinfo';
+import FormValidator from './validation';
+
+export default function func() {
   //ПЕРЕМЕННЫЕ
   /**********/
   const popupPlace = document.querySelector('.popup-place');
@@ -257,4 +264,4 @@
   window.onload = userInfo.setUserInfo();
   //загрузка аватара юзера
   window.onload = userInfo.setUserAvatar();
-}());
+}

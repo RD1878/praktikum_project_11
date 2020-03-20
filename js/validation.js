@@ -1,4 +1,4 @@
-class FormValidator {
+export default class FormValidator {
   constructor(form, linkInput, validationWords, popupButtonImage) {
     this.form = form;
     this.linkInput = linkInput;
