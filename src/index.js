@@ -1,4 +1,4 @@
-import '../pages/index.css';
-import func from "../js/script";
+import './index.css';
+import func from "./js/script";
 
 func();

@@ -101,7 +101,6 @@ export default function func() {
   //Функция ожидания загрузки карточки
   function renderLoading(isLoading, button) {
     if(isLoading) {
-      //console.log(button.firstElementChild);
       button.removeChild(button.firstElementChild);
       button.textContent = 'Загрузка...';
     } else {
@@ -159,7 +158,6 @@ export default function func() {
     if(popupProfile.classList.contains('popup_is-opened')) {
       formValidUser.resetError(formValidUser.form.user.nextElementSibling);
       formValidUser.resetError(formValidUser.form.job.nextElementSibling);
-      //popupSaveButtonProfile.classList.add('popup__button_active');
     }
     //Закрытие попапа профиля
     document.querySelector('.popup__close_profile').addEventListener('click', popupUser.close);

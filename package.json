@@ -3,7 +3,7 @@
   "homepage": "rd1878.github.io/praktikum_project_11/",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/RD1878/praktikum_project_11/issues"
   },
-  "homepage": "https://github.com/RD1878/praktikum_project_11#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",

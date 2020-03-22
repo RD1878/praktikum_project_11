@@ -49,7 +49,7 @@
     </div>
     <div class="popup popup-profile">
       <div class="popup__content popup__content_profile">
-        <img src="<%=require('../images/close.svg').default%>" alt="" class="popup__close popup__close_profile">
+        <img src="<%=require('./images/close.svg').default%>" alt="" class="popup__close popup__close_profile">
         <h3 class="popup__title">Редактировать профиль</h3>
         <form class="popup__form" name="profile">
             <input type="text" name="user" required minlength="2" maxlength="30" class="popup__input popup__input_type_user" placeholder="Имя">
@@ -66,7 +66,7 @@
         <h3 class="popup__title">Обновить аватар</h3>
         <form class="popup__form" name="avatar">
             <input type="url" name="avatar" required class="popup__input popup__input_type_avatar" placeholder="О себе">
-            <span id="error-avatar" class="popup__error-message popup__error-message_avatar"></span>
+            <span class="popup__error-message popup__error-message_avatar"></span>
             <button type class="button popup__button popup__button_save-avatar" disabled>Сохранить</button>
         </form>
       </div>
