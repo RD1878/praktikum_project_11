@@ -1,6 +1,6 @@
 # **Учебный проект №3 "Mesto" от Яндекс.Практикум**
 ## Ссылка на проект
-### [Mesto](https://rd1878.github.io/praktikum_project_11/)
+### [Mesto](https://rd1878.github.io/praktikum_project_3/)
 ## Версия
 
 v.0.0.2
