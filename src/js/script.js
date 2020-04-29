@@ -218,11 +218,6 @@ export default function func() {
             }
           })
         });
-        const answerReload = confirm('Перезагрузить страницу с новой сортировкой по лайкам?');
-        if(answerReload) {
-          cardList.render();
-          location.reload();
-        }
       }
       else {
         api.addLike(event.target.closest('.place-card').firstElementChild.dataset.cardId);
@@ -234,22 +229,12 @@ export default function func() {
               }
             });
         });
-        const answerReload = confirm('Перезагрузить страницу с новой сортировкой по лайкам?');
-        if(answerReload) {
-          cardList.render();
-          location.reload();
-        }
       }
     }
     if(event.target.classList.contains('place-card__delete-icon')) {
       if(window.confirm('Вы действительно хотите удалить картинку?')) {
         api.deleteCard(event.target.closest('.place-card__image').dataset.cardId);
         card.remove(event);
-        const answerReload = confirm('Перезагрузить страницу с указанием нового количества карточек?');
-        if(answerReload) {
-          cardList.render();
-          location.reload();
-        }
       }
     }
   });
