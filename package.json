@@ -1,6 +1,6 @@
 {
   "name": "praktikum_project_11",
-  "homepage": "rd1878.github.io/praktikum_project_11/",
+  "homepage": "rd1878.github.io/praktikum_project_3/",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RD1878/praktikum_project_11.git"
+    "url": "git+https://github.com/RD1878/praktikum_project_3.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RD1878/praktikum_project_11/issues"
+    "url": "https://github.com/RD1878/praktikum_project_3/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
