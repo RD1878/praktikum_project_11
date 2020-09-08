@@ -40,7 +40,7 @@ export default function func() {
   };
 
   const authorization = '774c77c4-10ef-4cb2-86fa-45394b721778';
-  const url = 'https://praktikum.tk/cohort8';
+  const url = 'https://nomoreparties.co/cohort8';
 
 
 
